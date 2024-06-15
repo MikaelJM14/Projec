@@ -1,19 +1,13 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Projec
+﻿namespace Projec
 {
     public class Student
     {
-        public List<float> grades = new List<float>();
+        public List<int> grades = new();
 
         public Student(string name, string surname)
         {
-            this.Name = name;
-            this.Surname = surname;
+            Name = name; 
+            Surname = surname;
         }
 
         public string Name { get; set; }

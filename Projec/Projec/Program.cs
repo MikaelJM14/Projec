@@ -1,7 +1,8 @@
 ﻿using Projec;
-var Math = new Math2();
-var English = new English();
-var French = new French();
+Console.WriteLine("Wjtamy w programie XYZ do oceny Pracownikow");
+Console.WriteLine("============================================");
+Console.WriteLine();
+var S = new S();
 var student1 = new Student("mikael", "marosz");
 var student2 = new Student("mikaela", "Jazmina");
 var student3 = new Student("stefan", "karol");
@@ -63,6 +64,9 @@ student10.grades.Add(A);
 student10.grades.Add(A);
 student10.grades.Add(A);
 
+Console.WriteLine($"Min: {S.Min}");
+Console.WriteLine($"Max: {S.Max}");
+Console.WriteLine($"Average: {S.Average}");
 Console.WriteLine($"student 10 has the highest score on every thing");
 Console.WriteLine($"student 1 has the medium score on every thing");
 Console.WriteLine($"students 6 & 7 have the lowest score on every thing");
